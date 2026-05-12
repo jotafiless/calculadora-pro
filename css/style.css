@@ -1,0 +1,28 @@
+body {
+    padding: 70px;
+    margin: 70px;
+    background-color: cornflowerblue;
+}
+.contenedor {
+    border: 10px solid rgb(165, 169, 168);
+    background-color: rgb(86, 90, 88);
+    margin: 10px;
+    padding: 20px;
+}
+.h1s, input  {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenedorResultado {
+    border: 10px solid rgb(165, 169, 168);
+    background-color: rgb(86, 90, 88);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.resultadobox {
+    width: 350px;
+    height: 100px;
+    font-size: 80px;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+    <title>Calculadora</title>
+</head>
+<body onload="">
+    <div class="contenedor">
+    <h1 class="h1s">Calculadora Pro</h1>
+    <div class="contenedor">
+        <center>
+            <input type="text" id="box1" placeholder="Numero 1">
+            <input type="text" id="box2" placeholder="Numero 2">
+            <input type="radio" name="operacion" value="sumar" checked>sumar
+            <input type="radio" name="operacion" value="restar" checked>restar
+            <input type="radio" name="operacion" value="multiplicar" checked>multiplicar
+            <input type="radio" name="operacion" value="dividir" checked>dividir
+            <input type="button" name="Calcular" onclick=" Calcular();">Calcular
+        </center>
+    </div>
+    
+    <div class="contenedorResultado">
+        <input class="resultadobox" type="text" id="resultado" placeholder="Resultado" readonly>
+    </div>
+    </div>
+</body>
+</html>
